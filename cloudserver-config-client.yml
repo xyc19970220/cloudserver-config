@@ -5,7 +5,7 @@
 - - -
 
 server:
-    port: 9002
+    port: 9010
 spring:
     profiles: dev
     application:
@@ -19,7 +19,7 @@ eureka:
 
 - - -
 server:
-    port: 9003
+    port: 9011
 spring:
     profiles: test
     application:
