@@ -1,8 +1,4 @@
-﻿spring:
-    profiles:
-        active:
-        - dev
-- - -
+﻿
 
 server:
     port: 9010
@@ -17,7 +13,7 @@ eureka:
             defaultZone: http://eureka5401-dev:5401/eureka/
 
 
-- - -
+
 server:
     port: 9011
 spring:
