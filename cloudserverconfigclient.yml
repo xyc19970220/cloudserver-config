@@ -1,7 +1,6 @@
 ﻿
 
-server:
-    port: 9010
+
 spring:
     profiles: dev
     application:
@@ -14,8 +13,6 @@ eureka:
 
 
 
-server:
-    port: 9011
 spring:
     profiles: test
     application:
