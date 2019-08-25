@@ -1,0 +1,31 @@
+﻿spring:
+    profiles:
+        active:
+        - dev
+- - -
+
+server:
+    port: 9002
+spring:
+    profiles: dev
+    application:
+      name: cloudserver-config-client
+
+eureka:
+    client:
+       service-url:
+            defaultZone: http://eureka5401-dev:5401/eureka/
+
+
+- - -
+server:
+    port: 9003
+spring:
+    profiles: test
+    application:
+      name: cloudserver-config-client
+
+eureka:
+    client:
+       service-url:
+            defaultZone: http://eureka5401-test:5401/eureka/
